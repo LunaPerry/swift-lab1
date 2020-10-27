@@ -91,10 +91,27 @@ resize2(fromWidth: 20, fromHeight: 30, toWidth: 100, toHeight: 400)
  */
 // Write your challenge code here:
 
+func areaSquare(height: Int, width: Int) -> Int {
+    return height * width
+}
+
+func perimeter(height: Int, width: Int) -> Int{
+    return (height * 2) + (width * 2)
+}
+
+func arrayPerimeter(lengths: [Int]) -> Int{
+    var sumLength: Int = 0
+    for length in lengths {
+        sumLength += length
+    }
+    return sumLength
+}
 
 
-
-
+let oddNumbers = [1, 3, 5, 7, 9, 11, 13, 15]
+var perimiter: Int = 0
+perimiter = arrayPerimeter(lengths: oddNumbers)
+print(perimiter)
 
 
 

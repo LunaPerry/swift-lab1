@@ -8,7 +8,7 @@ var population: Int = 20
  
  Uncomment the following line to see an error:
  */
-// population = 15.343234
+ population = 15.343234
 /*:
  The error says:
  `Cannot assign value of type 'Double' to type 'Int'.` A `Double` is a number that can have decimal points. We told Swift we were going to give it an `Int`, and instead we gave it a `Double`. Swift is a _statically typed_ language, which means once we declare a variable with a type, it can only hold values of that same type from now on. In this case, we told the compiler that `population` is an `Int`, so we can only store `Int` values in it.
@@ -51,7 +51,7 @@ var humans = 10
  
  Swift automatically knows the type of our variable because we assigned `10` to it, and `10` is clearly an integer value. Let's try assigning a decimal number to `humans`. Remove the comment in the line below to see the error:
  */
-// humans = 6.4342
+ humans = 6.4342
 /*:
  Silly programmer! You can't have four tenths of a person! Because Swift automatically inferred that `humans` is an `Int` when we first defined it, Swift won't let us assign a `Double` to it. No partial humans here.
  
@@ -76,7 +76,7 @@ let three = Int(pi)
 let angleInDegrees: Int = 60
     
 // Uncomment the line below to see the error
-//let radians: Double = angleInDegrees  * pi / 180.0;
+let radians: Double = angleInDegrees  * pi / 180.0;
 
 // This is the correct way to cast
 let radians: Double = Double(angleInDegrees)  * pi / 180.0;
@@ -105,7 +105,12 @@ let radians: Double = Double(angleInDegrees)  * pi / 180.0;
 
 
 // Write a definition for each variable followed by it's type (don't forget the colon!) below.
-
+var userName: String = ""
+var userPass: String = ""
+var shoeSize: Double = 0.0
+var gender: Character = "o"
+var ageCheck: Boolean = false
+var partyNum: Int = 0
 
 
 

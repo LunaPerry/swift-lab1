@@ -11,8 +11,16 @@
  - Goal number of steps: The user's goal for number of steps to take each day
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
-
-
+let userName = ""
+print("userName works well because its the user name")
+let userAge = 0
+print("userAge works well because its the user age")
+let numSteps = 0
+print("numSteps works well because its the number of steps")
+let goalSteps = 0
+print("goal steps works well because its the goal number of steps")
+let heartRateAvg = 0
+print("heartRateAvg works well because its the average heart rate")
 
 
 

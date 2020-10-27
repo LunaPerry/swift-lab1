@@ -16,7 +16,7 @@ height
  Try declaring your own variables and changing their values in the space below:
  */
 // make some variables here!
-
+height = 15
 //:The ability of variables to change is called _mutability_. Declaring a `var` with a value that never actually changes value will result in the Swift compiler giving you a yellow warning. For those values, you should use a _constant_ instead of a variable.
 /*:
  ## Constants
@@ -27,7 +27,7 @@ let pi = 3.14  //Mmm, pi.
  - experiment:
  Suppose we want to bend the rules of mathematics by changing the value of pi. Try changing `pi` by uncommenting the following line. You can uncomment it by deleting the two forward slashes `//` at the beginning of the line.
  */
-// pi = 2
+pi = 2
 /*:
  Notice that you get an error on that line. This is because you cannot change the value of a constant. Click the error sign to see the following:
 - important: `Cannot assign to value: 'pi' is a 'let' constant`
@@ -38,7 +38,7 @@ let pi = 3.14  //Mmm, pi.
  Create some constants of your own in the space below.
  */
 // make some constants here!
-
+let e = 2.7
 /*:
  - note:
  There's two very good reasons you should use constants instead of variables for values that never change. Firstly, it can help prevent bugs that may result from the programmer (you!) accidentally changing a value that you didn't mean to. The second reason is that in some situations, the Swift compiler can do some optimizations with constants that it cannot do with variables, potentially giving your code a small performance boost.
@@ -88,21 +88,21 @@ let Upcomingappversion = 1.1
 
 
 // 1) Define a variable to hold the number of cars parked in a parking lot, there 4 cars parked at the moment.
-
+var numCars = 4
 
 
 
 // 2) Define variable that holds the number of units in a building on Market St. There 12 units in the building.
-
+let numUnits = 12
 
 
 
 // 3) Define a variable that will hold the high score in a game. The current value is 5000.
-
+var highScore = 5000
 
 
 // 4) Define a variable that holds the number of letters in the alphabet.
-
+let alphatbet = 26
 
 
 //: [Next](@next)
